@@ -30,8 +30,6 @@ do
     esac
 done
 
-echo type $type
-
 # Break if missing argument and send help to user
 if [[ "$raw" == "" ]] || [[ "$adresse" == "" ]] || [[ "$postalcode" == "" ]] ; then
      echo "Mandatory arguments are missing."
